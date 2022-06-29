@@ -1,0 +1,31 @@
+{
+    "name": "plain-theme",
+    "displayName": "Plain Theme",
+    "description": "Limited Colors for less distraction",
+    "version": "0.0.1",
+    "publisher": "AkashTrivedi",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "author": {
+        "name": "Akash Trivedi",
+        "email": "sunnytrivedi321@gmail.com",
+        "url": "https://www.linkedin.com/in/akash-trivedi-1a872217a/"
+    },
+    "repository": {
+        "url": "https://github.com/Akash-Trivedi/plain-minimal-theme.git",
+        "type": "git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Plain Theme VSCode",
+                "uiTheme": "vs",
+                "path": "./themes/Plain Theme VSCode-color-theme.json"
+            }
+        ]
+    }
+}
